@@ -108,6 +108,15 @@ li.contact{
     font-weight: normal;
 }
 
+
+
+.sousMenu a{
+    display:block ;
+    padding: 1em 1.5em;
+    color: inherit;
+    text-decoration: none;
+    transform: skew(25deg);
+}
 li.longboard{
     border-radius: 0px 0px 7px 7px;
 }

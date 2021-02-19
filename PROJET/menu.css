@@ -1,21 +1,66 @@
 
 .menuBG {
+
     margin-left: -1em;
     margin-right: -1em;
     margin-top: -1em;
 
-
-    background-image: url(shapper.jpg);
     
     background-size: cover;
 
-    min-height: 700px;
+    min-height: 650px;
     
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
 
+}
+
+.accueilBG{
+    background-image: url(accueil.jpg);
+}
+
+.planchesBG{
+    background-image: url(planches.jpg);
+}
+
+.fishBG{
+    background-image: url(fish.jpg);
+
+}
+
+.evolutiveBG{
+    background-image: url(evolutive.jpg);
+
+}
+
+.funboardBG{
+    background-image: url(funboard.jpg);
+
+}
+
+.longboardBG{
+    background-image: url(longboard.jpg);
+
+}
+
+.bodyboardBG{
+    background-image: url(bodyboard.jpg);
+
+}
+
+.nousBG{
+    background-image: url(nous.jpg);
+
+}
+
+.teamBG{
+    background-image: url(team.jpg);
+}
+
+.contactBG{
+    background-image: url(contact.jpg);
 }
 
 body{
@@ -42,6 +87,8 @@ body{
     background-color:rgb(255, 255, 255);
     float:left;
     border-right: 1px solid;
+    border-bottom: 1px solid;
+
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
     color: rgb(0, 0, 0);
@@ -69,6 +116,8 @@ body{
 
  li.accueil{
     border-radius: 7px 0 0 7px;
+    border-left: 1px solid;
+
 }
 
 li.contact{
@@ -101,7 +150,7 @@ li.contact{
 .sousMenu ul li{
     background-color:rgb(255, 255, 255);
     float:left;
-    border-top: 1px solid;
+    border-left: 1px solid;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
     color: rgb(0, 0, 0);
@@ -117,6 +166,6 @@ li.contact{
     text-decoration: none;
     transform: skew(25deg);
 }
-li.longboard{
+li.bodyboard{
     border-radius: 0px 0px 7px 7px;
 }

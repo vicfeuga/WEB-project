@@ -18,49 +18,49 @@
 }
 
 .accueilBG{
-    background-image: url(../image/accueil.jpg);
+    background-image: url(../image/menu/accueil.jpg);
 }
 
 .planchesBG{
-    background-image: url(planches.jpg);
+    background-image: url(../image/menu/planches.jpg);
 }
 
 .fishBG{
-    background-image: url(fish.jpg);
+    background-image: url(../image/menu/fish.jpg);
 
 }
 
 .evolutiveBG{
-    background-image: url(evolutive.jpg);
+    background-image: url(../image/menu/evolutive.jpg);
 
 }
 
 .funboardBG{
-    background-image: url(funboard.jpg);
+    background-image: url(../image/menu/funboard.jpg);
 
 }
 
 .longboardBG{
-    background-image: url(longboard.jpg);
+    background-image: url(../image/menu/longboard.jpg);
 
 }
 
 .bodyboardBG{
-    background-image: url(bodyboard.jpg);
+    background-image: url(../image/menu/bodyboard.jpg);
 
 }
 
 .nousBG{
-    background-image: url(nous.jpg);
+    background-image: url(../image/menu/nous.jpg);
 
 }
 
 .teamBG{
-    background-image: url(team.jpg);
+    background-image: url(../image/menu/team.jpg);
 }
 
 .contactBG{
-    background-image: url(contact.jpg);
+    background-image: url(../image/menu/contact.jpg);
 }
 
 body{

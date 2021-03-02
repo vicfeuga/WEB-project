@@ -1,15 +1,15 @@
 function Verification() {
 
-    var DateCont = document.getElementById('idDateCont').value;
-    var Nom = document.getElementById('idNom').value;
-    var Prenom = document.getElementById('idPrenom').value;
-    var Email = document.getElementById('idEmail').value;
-    var GenreF = document.getElementById('idGenreF').value;
-    var GenreH = document.getElementById('idGenreH').value;
-    var DateNais = document.getElementById('idDateNais').value;
-    var Fonction = document.getElementById('idFonction').value;
-    var Sujet = document.getElementById('idSujet').value;
-    var Contenu = document.getElementById('idContenu').value;
+    let DateCont = document.getElementById('idDateCont').value;
+    let Nom = document.getElementById('idNom').value;
+    let Prenom = document.getElementById('idPrenom').value;
+    let Email = document.getElementById('idEmail').value;
+    let GenreF = document.getElementById('idGenreF').value;
+    let GenreH = document.getElementById('idGenreH').value;
+    let DateNais = document.getElementById('idDateNais').value;
+    let Fonction = document.getElementById('idFonction').value;
+    let Sujet = document.getElementById('idSujet').value;
+    let Contenu = document.getElementById('idContenu').value;
 
 
     
@@ -21,6 +21,8 @@ function Verification() {
         
     else{
         document.getElementById('idDateCont').style.backgroundColor="#9C1";
+        document.getElementById('idDateCont').style.color="#FFF";
+        console.log(`Contacte le : ${DateCont}`);
     }
 
     if(Nom==''){
@@ -30,6 +32,9 @@ function Verification() {
     }
     else{
         document.getElementById('idNom').style.backgroundColor="#9C1";
+        document.getElementById('idDateCont').style.color="#FFF";
+        console.log(`Nom : ${Nom}`);
+
     }
 
     if(Prenom==''){
@@ -39,6 +44,9 @@ function Verification() {
     }
     else{
         document.getElementById('idPrenom').style.backgroundColor="#9C1";
+        document.getElementById('idDateCont').style.color="#FFF";
+        console.log(`Prenom : ${Prenom}`);
+
     }
     
     
@@ -50,6 +58,9 @@ function Verification() {
     
     else{
       document.getElementById('idEmail').style.backgroundColor="#9C1";
+      document.getElementById('idDateCont').style.color="#FFF";
+      console.log(`Email : ${Email}`);
+
     }
 
     if(GenreF=='' && GenreH=='') {
@@ -62,9 +73,14 @@ function Verification() {
     
     else if (GenreF==''){
         document.getElementById('idGenreH').style.backgroundColor="#9C1";
+        document.getElementById('idDateCont').style.color="#FFF";
+        console.log(`Genre : ${GenreF}`);
     }
     else{
         document.getElementById('idGenreF').style.backgroundColor="#9C1";
+        document.getElementById('idDateCont').style.color="#FFF";
+        console.log(`Genre : ${GenreH}`);
+
     }
 
     if(DateNais=='') {
@@ -74,6 +90,8 @@ function Verification() {
     }
     else{
         document.getElementById('idDateNais').style.backgroundColor="#9C1";
+        console.log(`Date de naissance : ${DateNais}`);
+
     }
 
     if(Fonction=='') {
@@ -83,6 +101,9 @@ function Verification() {
     }
     else{
         document.getElementById('idFonction').style.backgroundColor="#9C1";
+        document.getElementById('idDateCont').style.color="#FFF";
+        console.log(`Fonction : ${Fonction}`);
+
     }
 
     if(Sujet=='') {
@@ -92,16 +113,22 @@ function Verification() {
     }
     else{
         document.getElementById('idSujet').style.backgroundColor="#9C1";
+        document.getElementById('idDateCont').style.color="#FFF";
+        console.log(`Sujet : ${Sujet}`);
+
     }
 
     if(Contenu=='') {
         document.getElementById('idContenu').style.backgroundColor="red";
-        document.getElementById('idContenu').style.color="#FFF";
         return false;
     }
     else{
         document.getElementById('idContenu').style.backgroundColor="#9C1";
+        document.getElementById('idDateCont').style.color="#FFF";
+        console.log(`Contenu : ${Contenu}`);
+
     }
 
 
 }
+

@@ -1,5 +1,10 @@
-function Verification() {
+let form=document.querySelector("form")
+let btn = form.querySelector('[name="valider"]')
 
+btn.addEventListener("click",(e)=>{
+
+    e.preventDefault()
+    
     let DateCont = document.getElementById('idDateCont').value
     let Nom = document.getElementById('idNom').value 
     let Prenom = document.getElementById('idPrenom').value 
@@ -10,8 +15,6 @@ function Verification() {
     let Fonction = document.getElementById('idFonction').value
     let Sujet = document.getElementById('idSujet').value
     let Contenu = document.getElementById('idContenu').value
-
-
 
         if(DateCont=='') {
             document.getElementById('idDateCont').style.backgroundColor="red"
@@ -129,5 +132,4 @@ function Verification() {
             console.log(`Contenu : ${Contenu}`)
 
         }
-
-}
+})

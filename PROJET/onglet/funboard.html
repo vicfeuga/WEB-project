@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title> B&V Surfshop </title>
+        <link rel="stylesheet" href="..\css\menu.css">
+        <link rel="stylesheet" href="..\css\texte.css">
+		
+		<!-- Code javaScript-->
+		<script src="https://unpkg.com/js-image-zoom@0.7.0/js-image-zoom.js"></script>
+		<script src="../js/produit.js"></script>
+
+    </head>
+    <body >
+        <div class="menuBG funboardBG">
+            <header>
+                <nav class="menu" >
+                    <ul>
+                        <li class="accueil"><a href="..\projet.html" >Accueil</a></li>              
+                        <li><a href="planches.html">Planches</a>
+                            <nav class="sousMenu">
+                                <ul>
+                                    <li><a href="planches.html">toutes</a></li>
+                                    <li><a href="fish.html">Fish</a></li>
+                                    <li><a href="evolutive.html">Evolutive</a></li>
+                                    <li><a href="funboard.html">Funboard</a></li>
+                                    <li class="longboard"><a href="longboard.html">Longboard</a></li>
+                                    <li class="bodyboard"><a href="bodyboard.html">Bodyboard</a></li>
+                                </ul>
+                           </nav>
+                        </li>
+                        <li><a href="nous.html">Nous</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li class="contact"><a href="contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+            </header> 
+        </div>
+        <p>
+            Funboard
+        </p>
+		<table>
+			<thead>
+				<tr>
+					<th> Image </th>
+					<th> Nom </th>
+					<th> Marque </th>
+					<th> Prix </th>
+				</tr>
+			</thead>
+			<tbody id="listeplanche">
+			</tbody>
+		</table>
+		
+
+		<!-- Execution de la fonction printplanche de produit.js à l'ouverture de la page -->
+		<SCRIPT LANGUAGE="Javascript">
+			printfuns();
+		</SCRIPT>
+    </body>
+</html>

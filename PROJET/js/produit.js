@@ -46,10 +46,10 @@ function printplanche(){
 planches.forEach(planche=>
     listOfPlanches += `
       <tr>
-		<td><div class="img-container" style="width: 200px"><img src=${planche.img}></div></td>
-        <td>${planche.nom}</td>
-        <td>${planche.marque}</td>
-		<td>${planche.prix} </td>
+		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
+        <td align="center" width=55%>${planche.nom}</td>
+        <td align="center" width=15%>${planche.marque}</td>
+		<td align="center" width=20%>${planche.prix} </td>
       </tr>
 	  `
 
@@ -76,12 +76,12 @@ function printfish(){
 	
 fishs.forEach(planche=>
     listOfPlanches += `
-      <tr>
-        <td><div class="img-container" style="width: 400px"><img src=${planche.img}></div></td>
-        <td>${planche.nom}</td>
-        <td>${planche.marque}</td>
-		<td>${planche.prix}</td>
-      </tr>
+	<tr>
+		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
+		<td align="center" width=55%>${planche.nom}</td>
+		<td align="center" width=15%>${planche.marque}</td>
+		<td align="center" width=20%>${planche.prix} </td>
+ 	 </tr>
       ` 
   )
  
@@ -106,12 +106,12 @@ function printbody(){
 	
 bodys.forEach(planche=>
     listOfPlanches += `
-      <tr>
-        <td><div class="img-container" style="width: 400px"><img src=${planche.img}></div></td>
-        <td>${planche.nom}</td>
-        <td>${planche.marque}</td>
-		<td>${planche.prix}</td>
-      </tr>
+	<tr>
+		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
+		<td align="center" width=55%>${planche.nom}</td>
+		<td align="center" width=15%>${planche.marque}</td>
+		<td align="center" width=20%>${planche.prix} </td>
+  	</tr>
       ` 
   )
  
@@ -138,12 +138,12 @@ function printlong(){
 	
 longs.forEach(planche=>
     listOfPlanches += `
-      <tr>
-        <td><div class="img-container" style="width: 400px"><img src=${planche.img}></div></td>
-        <td>${planche.nom}</td>
-        <td>${planche.marque}</td>
-		<td>${planche.prix}</td>
-      </tr>
+	<tr>
+		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
+		<td align="center" width=55%>${planche.nom}</td>
+		<td align="center" width=15%>${planche.marque}</td>
+		<td align="center" width=20%>${planche.prix} </td>
+	</tr>
       ` 
   )
  
@@ -167,12 +167,12 @@ function printfuns(){
 	
 funs.forEach(planche=>
     listOfPlanches += `
-      <tr>
-        <td><div class="img-container" style="width: 400px"><img src=${planche.img}></div></td>
-        <td>${planche.nom}</td>
-        <td>${planche.marque}</td>
-		<td>${planche.prix}</td>
-      </tr>
+	<tr>
+		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
+		<td align="center" width=55%>${planche.nom}</td>
+		<td align="center" width=15%>${planche.marque}</td>
+		<td align="center" width=20%>${planche.prix} </td>
+	</tr>
       ` 
 	  
   )
@@ -199,12 +199,12 @@ function printevo(){
 	
 evos.forEach(planche=>
     listOfPlanches += `
-      <tr>
-        <td><div class="img-container" style="width: 400px"><img src=${planche.img}></div></td>
-        <td>${planche.nom}</td>
-        <td>${planche.marque}</td>
-		<td>${planche.prix}</td>
-      </tr>
+	<tr>
+		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
+		<td align="center" width=55%>${planche.nom}</td>
+		<td align="center" width=15%>${planche.marque}</td>
+		<td align="center" width=20%>${planche.prix} </td>
+	</tr>
       ` 
   )
  

@@ -5,131 +5,115 @@ btn.addEventListener("click",(e)=>{
 
     e.preventDefault()
     
-    let DateCont = document.getElementById('idDateCont').value
-    let Nom = document.getElementById('idNom').value 
-    let Prenom = document.getElementById('idPrenom').value 
-    let Email = document.getElementById('idEmail').value
-    let GenreF = document.getElementById('idGenreF').value
-    let GenreH = document.getElementById('idGenreH').value
-    let DateNais = document.getElementById('idDateNais').value
-    let Fonction = document.getElementById('idFonction').value
-    let Sujet = document.getElementById('idSujet').value
-    let Contenu = document.getElementById('idContenu').value
+    let DateCont = document.getElementById('idDateCont')
+    let Nom = document.getElementById('idNom') 
+    let Prenom = document.getElementById('idPrenom') 
+    let Email = document.getElementById('idEmail')
+    let GenreF = document.getElementById('idGenreF')
+    let GenreH = document.getElementById('idGenreH')
+    let DateNais = document.getElementById('idDateNais')
+    let Fonction = document.getElementById('idFonction')
+    let Sujet = document.getElementById('idSujet')
+    let Contenu = document.getElementById('idContenu')
 
-        if(DateCont=='') {
-            document.getElementById('idDateCont').style.backgroundColor="red"
-            document.getElementById('idDateCont').style.color="#FFF"
-            return false
-        }
+    if(DateCont.value=='') {
+        DateCont.style.backgroundColor="red"
+        DateCont.color="#FFF"
+        return false
+     }
             
-        else{
-            document.getElementById('idDateCont').style.backgroundColor="#9C1"
-            document.getElementById('idDateCont').style.color="#FFF"
-            console.log(`Contacte le : ${DateCont}`)
-        }
-
-        if(Nom==''){
-            document.getElementById('idNom').style.backgroundColor="red"
-            document.getElementById('idNom').style.color="#FFF"
-            return false
-        }
-        else{
-            document.getElementById('idNom').style.backgroundColor="#9C1"
-            document.getElementById('idDateCont').style.color="#FFF"
-            console.log(`Nom : ${Nom}`)
-
-        }
-
-        if(Prenom==''){
-            document.getElementById('idPrenom').style.backgroundColor="red"
-            document.getElementById('idPrenom').style.color="#FFF"
-            return false
-        }
-        else{
-            document.getElementById('idPrenom').style.backgroundColor="#9C1"
-            document.getElementById('idDateCont').style.color="#FFF"
-            console.log(`Prenom : ${Prenom}`)
-
-        }
-        
-        
-        if(Email=='') {
-            document.getElementById('idEmail').style.backgroundColor="red"
-            document.getElementById('idEmail').style.color="#FFF"
-            return false
-        }
-        
-        else{
-        document.getElementById('idEmail').style.backgroundColor="#9C1"
+     else{
+        document.getElementById('idDateCont').style.backgroundColor="#9C1"
         document.getElementById('idDateCont').style.color="#FFF"
-        console.log(`Email : ${Email}`)
+     }
 
-        }
+    if(Nom.value==''){
+        Nom.style.backgroundColor="red"
+        Nom.style.color="#FFF"
+        return false
+    }
+    else{
+        Nom.style.backgroundColor="#9C1"
+        Nom.style.color="#FFF"
+    }
 
-        if(GenreF=='' && GenreH=='') {
-            document.getElementById('idGenreF').style.backgroundColor="red"
-            document.getElementById('idGenreF').style.color="#FFF"
-            document.getElementById('idGenreH').style.backgroundColor="red"
-            document.getElementById('idGenreH').style.color="#FFF"
-            return false
-        }
+    if(Prenom.value==''){
+        Prenom.style.backgroundColor="red"
+        Prenom.style.color="#FFF"
+        return false
+    }
+    else{
+        Prenom.style.backgroundColor="#9C1"
+        Prenom.style.color="#FFF"
+    }
         
-        else if (GenreF==''){
-            document.getElementById('idGenreH').style.backgroundColor="#9C1"
-            document.getElementById('idDateCont').style.color="#FFF"
-            console.log(`Genre : ${GenreF}`)
-        }
-        else{
-            document.getElementById('idGenreF').style.backgroundColor="#9C1"
-            document.getElementById('idDateCont').style.color="#FFF"
-            console.log(`Genre : ${GenreH}`)
+        
+    if(Email.value=='') {
+        Email.style.backgroundColor="red"
+        Email.style.color="#FFF"
+        return false
+    }
+        
+    else{
+        Email.style.backgroundColor="#9C1"
+        Email.style.color="#FFF"
+    }
+        
+    if(DateNais.value=='') {
+        DateNais.style.backgroundColor="red"
+        DateNais.style.color="#FFF"
+        return false
+    }
+    else{
+        DateNais.style.backgroundColor="#9C1"
+    }
 
-        }
+    if(Fonction.value=='') {
+        Fonctionstyle.backgroundColor="red"
+        Fonction.style.color="#FFF"
+        return false
+    }
+    else{
+        Fonction.style.backgroundColor="#9C1"
+        Fonction.style.color="#FFF"
+    }
 
-        if(DateNais=='') {
-            document.getElementById('idDateNais').style.backgroundColor="red"
-            document.getElementById('idDateNais').style.color="#FFF"
-            return false
-        }
-        else{
-            document.getElementById('idDateNais').style.backgroundColor="#9C1"
-            console.log(`Date de naissance : ${DateNais}`)
+    if(Sujet.value=='') {
+        Sujet.style.backgroundColor="red"
+        Sujet.style.color="#FFF"
+        return false
+    }
+    else{
+        Sujet.style.backgroundColor="#9C1"
+        Sujet.style.color="#FFF"
+    }
 
-        }
-
-        if(Fonction=='') {
-            document.getElementById('idFonction').style.backgroundColor="red"
-            document.getElementById('idFonction').style.color="#FFF"
-            return false
-        }
-        else{
-            document.getElementById('idFonction').style.backgroundColor="#9C1"
-            document.getElementById('idDateCont').style.color="#FFF"
-            console.log(`Fonction : ${Fonction}`)
-
-        }
-
-        if(Sujet=='') {
-            document.getElementById('idSujet').style.backgroundColor="red"
-            document.getElementById('idSujet').style.color="#FFF"
-            return false
-        }
-        else{
-            document.getElementById('idSujet').style.backgroundColor="#9C1"
-            document.getElementById('idDateCont').style.color="#FFF"
-            console.log(`Sujet : ${Sujet}`)
-
-        }
+    if(Contenu.value=='') {
+        Contenu.style.backgroundColor="red"
+        return false
+    }
+    else{
+        Contenu.style.backgroundColor="#9C1"
+        Contenu.style.color="#FFF"
+    }
 
 
-        if(Contenu=='') {
-            document.getElementById('idContenu').style.backgroundColor="red"
-            return false
-        }
-        else{
-            document.getElementById('idContenu').style.backgroundColor="#9C1"
-            document.getElementById('idDateCont').style.color="#FFF"
-            console.log(`Contenu : ${Contenu}`)
+    console.log(`Contacte le : ${DateCont.value}`)
+    console.log(`Nom : ${Nom.value}`)
+    console.log(`Prenom : ${Prenom.value}`)
+    console.log(`Email : ${Email.value}`)
+        
+    if(GenreF.checked){
+        console.log(`Genre : ${GenreF.value}`)
+    }
 
-        }
+    else{
+        console.log(`Genre : ${GenreH.value}`)
+    }
+
+    console.log(`Date de naissance : ${DateNais.value}`)
+    console.log(`Fonction : ${Fonction.value}`)
+    console.log(`Sujet : ${Sujet.value}`)
+    console.log(`Contenu : ${Contenu.value}`)
+
 })

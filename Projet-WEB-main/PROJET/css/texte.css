@@ -1,0 +1,89 @@
+h1{
+    padding: 1cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    text-align: center;    
+    font-size: 300%;  
+}
+
+.texte{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;  
+    position: relative;
+}
+
+.texte.bordGauche{
+    margin-left:50% ;
+}
+
+.texte.centrer{
+    text-align: center;    
+}
+
+img.centrer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+}
+
+
+/* CSS POUR LE FORMULAIRE */
+input[type=date]{
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+
+}
+
+input[type=text],[type=email]{
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+select{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid #ccc;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  form{
+    margin-left: 10%;
+    margin-right: 10%;
+}

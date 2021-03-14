@@ -3,12 +3,34 @@ h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     text-align: center;    
-    font-size: 300%;
-    
+    font-size: 300%;  
+}
+
+.texte{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;  
+    position: relative;
+}
+
+.texte.bordGauche{
+    margin-left:50% ;
+}
+
+.texte.centrer{
+    text-align: center;    
+}
+
+img.centrer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
 }
 
 
-
+/* CSS POUR LE FORMULAIRE */
 input[type=date]{
     width: 100px;
     box-sizing: border-box;

@@ -79,13 +79,13 @@ planches.forEach(planche=>
 	`
       <tr>
 		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
-        <td align="center" width=55%>${planche.nom}</td>
-        <td align="center" width=15%>${planche.marque}</td>
+       		<td align="center" width=55%>${planche.nom}</td>
+        	<td align="center" width=15%>${planche.marque}</td>
 		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" width=55% class="hide">${planche.stock}</td>
+		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
-			<input type="text" id=${planche.id} value="0" />
+			<input type="text"  style="width:90%" id=${planche.id} value="0" />
 			<button onclick=up('${planche.id}',${planche.stock})>+</button>
 		</td>
 		<td>
@@ -123,10 +123,10 @@ fishs.forEach(planche=>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
 		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" width=55% class="hide">${planche.stock}</td>
+		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
-			<input type="text" id=${planche.id} value="0" />
+			<input type="text"  style="width:90%" id=${planche.id} value="0" />
 			<button onclick=up('${planche.id}',${planche.stock})>+</button>
 		</td>
 		<td>
@@ -162,10 +162,10 @@ bodys.forEach(planche=>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
 		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" width=55% class="hide">${planche.stock}</td>
+		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
-			<input type="text" id=${planche.id} value="0" />
+			<input type="text"  style="width:90%" id=${planche.id} value="0" />
 			<button onclick=up('${planche.id}',${planche.stock})>+</button>
 		</td>
 		<td>
@@ -203,10 +203,10 @@ longs.forEach(planche=>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
 		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" width=55% class="hide">${planche.stock}</td>
+		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
-			<input type="text" id=${planche.id} value="0" />
+			<input type="text"  style="width:90%" id=${planche.id} value="0" />
 			<button onclick=up('${planche.id}',${planche.stock})>+</button>
 		</td>
 		<td>
@@ -241,10 +241,10 @@ funs.forEach(planche=>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
 		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" width=55% class="hide">${planche.stock}</td>
+		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
-			<input type="text" id=${planche.id} value="0" />
+			<input type="text"  style="width:90%" id=${planche.id} value="0" />
 			<button onclick=up('${planche.id}',${planche.stock})>+</button>
 		</td>
 		<td>
@@ -282,10 +282,10 @@ evos.forEach(planche=>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
 		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" width=55% class="hide">${planche.stock}</td>
+		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
-			<input type="text" id=${planche.id} value="0" />
+			<input type="text"  style="width:90%" id=${planche.id} value="0" />
 			<button onclick=up('${planche.id}',${planche.stock})>+</button>
 		</td>
 		<td>

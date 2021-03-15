@@ -116,14 +116,13 @@ function printfish(){
 	let listOfPlanches = '';
 	
 fishs.forEach(planche=>
-    listOfPlanches += `
-	
+    listOfPlanches +=	`
       <tr>
 		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
-		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
+		<td align="center" width=20%>${planche.prix} €</td>
+		<td align="center" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
 			<input type="text"  style="width:90%" id=${planche.id} value="0" />
@@ -161,8 +160,8 @@ bodys.forEach(planche=>
 		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
-		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
+		<td align="center" width=20%>${planche.prix} €</td>
+		<td align="center" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
 			<input type="text"  style="width:90%" id=${planche.id} value="0" />
@@ -197,13 +196,13 @@ function printlong(){
 	let listOfPlanches = '';
 	
 longs.forEach(planche=>
-    listOfPlanches += `
+    listOfPlanches +=`
       <tr>
 		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
-		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
+		<td align="center" width=20%>${planche.prix} €</td>
+		<td align="center" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
 			<input type="text"  style="width:90%" id=${planche.id} value="0" />
@@ -240,8 +239,8 @@ funs.forEach(planche=>
 		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
-		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
+		<td align="center" width=20%>${planche.prix} €</td>
+		<td align="center" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
 			<input type="text"  style="width:90%" id=${planche.id} value="0" />
@@ -276,13 +275,13 @@ function printevo(){
 	let listOfPlanches = '';
 	
 evos.forEach(planche=>
-    listOfPlanches += `
+    listOfPlanches +=`
       <tr>
 		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
-		<td align="center" width=20%>${planche.prix}€</td>
-		<td align="center" valign="middle" width=15% class="hide">${planche.stock}</td>
+		<td align="center" width=20%>${planche.prix} €</td>
+		<td align="center" width=15% class="hide">${planche.stock}</td>
 		<td>
 			<button onclick=less('${planche.id}')>-</button>
 			<input type="text"  style="width:90%" id=${planche.id} value="0" />

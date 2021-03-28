@@ -1,0 +1,41 @@
+h1{
+    padding: 1cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    text-align: center;    
+    font-size: 300%;  
+}
+
+.texte{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;  
+    position: relative;
+}
+
+.texte.bordGauche{
+    margin-left:50% ;
+}
+
+.texte.centrer{
+    text-align: center;    
+}
+
+img.centrer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+}
+
+.OK {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid #ccc;
+    padding: 3px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+   
+}

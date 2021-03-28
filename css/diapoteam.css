@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box
+}
+
+img{
+    max-width: 100%
+}
+
+input[type=radio]{
+
+position: absolute;
+left: -9999px
+
+}
+	
+.cadre-demo1 label{
+cursor:pointer
+}
+
+.cadre-demo1{
+
+overflow: hidden;
+position: relative;
+max-width: 600px;
+margin: 2rem auto
+	
+}
+
+
+.photos-mini{
+
+box-align:center;
+padding-top: 66.67%;
+display: flex;
+
+}
+
+.miniature{
+
+flex: 1;
+padding:0px;
+	
+}
+	
+
+.fenetre{
+object-fit: cover;
+position: absolute;
+top: 0;
+transition:all .9s;
+left: -100%;
+opacity: 0
+	
+	}
+
+.fen:checked~ .fenetre{
+	
+left: 0;
+opacity: 1
+	
+}
+
+figcaption{
+
+position: absolute;
+top: 0;
+left: 0;
+padding: .25rem;
+transition: opacity 0.6s;
+opacity: 0;
+display: flex;
+justify-content: center;
+color: white;
+background: rgba(0, 0, 0, 0.252)
+
+}
+
+.fen:checked~figcaption{
+
+opacity: 1
+	
+	}
+	

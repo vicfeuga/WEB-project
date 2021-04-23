@@ -1,16 +1,17 @@
 function afficher()
 {
 	let col = document.getElementsByClassName("hide");
-	for (var i = 0; i < col.length; i++) {
-		col[i].style.display='block';
+	if (col[1].style.display == 'none')
+	{
+		for (var i = 0; i < col.length; i++) {
+			col[i].style.display='block';
+		}
 	}
-	
-}
-function cacher()
-{
-	let col = document.getElementsByClassName("hide");
-	for (var i = 0; i < col.length; i++) {
-		col[i].style.display='none';
+	else
+	{
+		for (var i = 0; i < col.length; i++) {
+			col[i].style.display='none';
+		}
 	}
 	
 }
@@ -118,7 +119,7 @@ function printfish(){
 fishs.forEach(planche=>
     listOfPlanches +=	`
       <tr>
-		<td><div class="img-container" style=" width="320px" height=320px""><img src=${planche.img}></div></td>
+		<td><div class="img-container" style=" width="320px" height="320px""><img src=${planche.img}></div></td>
         <td align="center" width=55%>${planche.nom}</td>
         <td align="center" width=15%>${planche.marque}</td>
 		<td align="center" width=20%>${planche.prix} €</td>

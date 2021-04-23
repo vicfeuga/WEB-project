@@ -16,8 +16,7 @@
             <?php include('../php/header.php'); ?>
         </div>
         <h1>Toutes nos planches</h1>
-		<button onclick="afficher()" class="OK"> Afficher les stocks </button>
-		<button onclick="cacher()" class="OK"> Cacher les stocks </button>
+		<button onclick="afficher()"> Afficher/Masquer les stocks </button>
 		<br><br>
 
 		<form name="select_categorie" methode="GET" >

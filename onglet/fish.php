@@ -20,25 +20,26 @@
         </div>
         <h1>Fish</h1>
 		<button onclick="afficher()"> Afficher/Masquer les stocks </button>
-		<table>
-			<thead>
-				<tr>
-					<th> Image </th>
-					<th> Nom </th>
-					<th> Marque </th>
-					<th> Prix </th>
-					<th class="hide"> Stock </th>
-					<th> Quantité commandée  </th>
-				</tr>
-			</thead>
-			<tbody id="listeplanche">
-			</tbody>
-		</table>
+        <?php
+        include '../php/categorie/catfish.php' ;    
+        ?>
 		
 		<!-- Execution de la fonction printplanche de produit.js à l'ouverture de la page -->
 		<SCRIPT LANGUAGE="Javascript">
-			printfish();
 			cacher();
+            document.getElementById('listeplanche').innerHTML = listOfPlanches;
+            var options = {
+                widht: 200,
+                height: 375,
+                zoomWidth: 400,
+                offset: {vertical: 0, horizon: 50},
+                zoomPosition: "original",
+                scale: "1"
+            };
+            var list = document.getElementsByClassName("img-container");
+            for (var i = 0; i < list.length; i++) {
+                new ImageZoom(list[i], options);
+            }
 		</SCRIPT>
     </body>
 </html>

@@ -14,7 +14,7 @@
         </div>
         <div>
             <h1>Formulaire de contact</h1>
-            <form name="monformulaire1" method="POST" onSubmit="../php/test.php">    
+            <form name="monformulaire1" method="POST" action="../php/nousContacter.php">    
                     <div>                        
                         <label for="idNom">Nom <span class="text-danger"></span></label>
                         <input type="text" name="nom" id="idNom" placeholder="Entrez votre nom" value="<?php if(isset($_POST['nom'])) { echo $_POST['nom']; } ?>">
@@ -63,6 +63,10 @@
                     </div>
             </form> 
         </div>
-        <script src="../js/formulaire.js"></script>
+        
+        <script src="../js/formulaire.js"></script>        
+
+
+
     </body>
 </html>

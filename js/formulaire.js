@@ -1,3 +1,5 @@
+
+
 function checkEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
@@ -88,8 +90,6 @@ btn.addEventListener("click",(e)=>{
         Contenu.style.color="#FFF"
     }
 
-
-    console.log(`Contacte le : ${DateCont.value}`)
     console.log(`Nom : ${Nom.value}`)
     console.log(`Prenom : ${Prenom.value}`)
     console.log(`Email : ${Email.value}`)
@@ -106,5 +106,7 @@ btn.addEventListener("click",(e)=>{
     console.log(`Fonction : ${Fonction.value}`)
     console.log(`Sujet : ${Sujet.value}`)
     console.log(`Contenu : ${Contenu.value}`)
+
+    alert("Mail envoyé!")
     return true
 })

@@ -17,26 +17,14 @@
 			<?php include('../php/header.php'); ?>
         </div>
         <h1>Funboard</h1>
-		<button onclick="afficher()"> Afficher les stocks </button>
-		<table>
-			<thead>
-				<tr>
-					<th> Image </th>
-					<th> Nom </th>
-					<th> Marque </th>
-					<th> Prix </th>
-					<th class="hide"> Stock </th>
-					<th> Quantité commandée  </th>
-				</tr>
-			</thead>
-			<tbody id="listeplanche">
-			</tbody>
-		</table>
+		<button onclick="afficher()"> Afficher/Masquer les stocks </button>
+		<?php
+        include '../php/categorie/catfunboard.php' ;    
+        ?>
 		
 
 		<!-- Execution de la fonction printplanche de produit.js à l'ouverture de la page -->
 		<SCRIPT LANGUAGE="Javascript">
-			printfuns();
 			cacher();
 		</SCRIPT>
     </body>

@@ -18,28 +18,16 @@
 			<?php include('../php/header.php'); ?>
         </div>
         <h1>Evolutive</h1>
-		<button onclick="afficher()"> Afficher les stocks </button>
-		<table>
-			<thead>
-				<tr>
-					<th> Image </th>
-					<th> Nom </th>
-					<th> Marque </th>
-					<th> Prix </th>
-					<th class="hide"> Stock </th>
-					<th> Quantité commandée  </th>
-				</tr>
-			</thead>
-			<tbody id="listeplanche">
-			</tbody>
-		</table>
+		<button onclick="afficher()"> Afficher/Masquer les stocks </button>
+		<?php
+        include '../php/categorie/catevo.php' ;    
+        ?>
 		
 		<!-- Code javaScript-->
 		<script src="../js/produit.js">
 		</script>
 		<!-- Execution de la fonction printplanche de produit.js à l'ouverture de la page -->
 		<SCRIPT LANGUAGE="Javascript">
-			printevo();
 			cacher();
 		</SCRIPT>
     </body>
